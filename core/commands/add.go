@@ -21,7 +21,7 @@ import (
 )
 
 // ErrDepthLimitExceeded indicates that the max depth has been exceeded.
-var ErrDepthLimitExceeded = fmt.Errorf("depth limit exceeded")
+var ErrDepthLimitExceeded = fmt.Errorf("depth limit exceeded.")
 
 type AddEvent struct {
 	Name  string
